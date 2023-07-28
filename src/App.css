@@ -1,10 +1,9 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /*max-width: 1280px;
+  /*margin: auto ;
+  /*padding: 2rem;*/
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background-color: #f4f5f4;
 }
 
 .logo {
@@ -438,3 +437,163 @@ font-size: 14px;
 color: #878787;
 }
 
+/* Ecomerce app styling */ 
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.innerWrapper {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+h2,
+h4 {
+  font-family: 'Abril Fatface', serif;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0 0 30px 0;
+}
+
+/* NAV SECTION */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+.innerWrapper {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+
+/* NAV SECTION */
+
+ .navWrapper {
+  border: 1px red solid;
+      background-image: url(./links/gear1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.innerWrapper {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+h2,
+h4 {
+  font-family: 'Abril Fatface', serif;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0 0 30px 0;
+}
+#Camp {
+  padding: 21px 17px 20px 15%;
+  margin: 0;
+  float: left;
+  color: #635656;
+  width: 45%;
+  background: rgba(0, 0, 0, 0.075);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: left;
+  font-variant: small-caps;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+nav {
+  padding-right: -10px;
+  padding: 0;
+  margin: 0;
+  width: 55%;
+  float: right;
+}
+
+
+header nav ul {
+
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-right: 20px solid rgba(0, 0, 0, 0.493);
+}
+
+nav ul li {
+  float: left;
+  margin: 0;
+  display: inline;
+  width: 25%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+nav ul li:hover {
+  background: none;
+  font-style: bold;
+  color: #030303;
+  transform: scale(1.2);
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 25px 20px;
+  color: #fff;
+  margin: 0;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+}
+
+header nav ul li a:focus {
+  outline: none;
+}

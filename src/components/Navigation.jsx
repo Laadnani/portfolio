@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 export function Navigation() {
 
@@ -8,7 +8,7 @@ export function Navigation() {
         <a className="logo" alt="builder image" />
         <ul className="Nav-list">
             <li>Home</li>
-            <li>Projects</li>
+            <li> <Link to= 'ecom-temp'>  Projects  </Link> </li>
             <li>Contact</li>
         </ul>
     </section>

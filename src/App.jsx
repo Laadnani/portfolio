@@ -1,21 +1,22 @@
-import { useState } from 'react'
 import { Navigation } from './components/Navigation'
 import { Front } from './components/Front'
 import { Cardwheel } from './components/Cardwheel'
 import { Footer } from './components/Footer'
+import { Routes, Route } from 'react-router-dom'
+import { Portfolio } from './myweb'
+import { EcomTemplate } from './ecomweb/ecomfront'
 import './App.css'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-    <Navigation /> 
-    <Front />
-    <Cardwheel />
-    <Footer />
+    <> 
+    <Routes> 
+      <Route path='/' element={<Portfolio />} />
+      <Route path='ecom-temp' element={<EcomTemplate />} />
+    </Routes>
     </>
   )
 }
